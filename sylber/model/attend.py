@@ -16,16 +16,20 @@ from einops import rearrange
 
 FlashAttentionConfig = namedtuple('FlashAttentionConfig', ['enable_flash', 'enable_math', 'enable_mem_efficient'])
 
+
 # helpers
 
 def exists(val):
     return val is not None
 
+
 def default(val, d):
     return val if exists(val) else d
 
+
 def once(fn):
     called = False
+
     @wraps(fn)
     def inner(x):
         nonlocal called
@@ -33,18 +37,21 @@ def once(fn):
             return
         called = True
         return fn(x)
+
     return inner
 
+
 print_once = once(print)
+
 
 # main class
 
 class Attend(nn.Module):
     def __init__(
-        self,
-        dropout = 0.,
-        flash = False,
-        scale = None
+            self,
+            dropout=0.,
+            flash=False,
+            scale=None
     ):
         super().__init__()
         self.dropout = dropout
@@ -53,7 +60,8 @@ class Attend(nn.Module):
         self.scale = scale
 
         self.flash = flash
-        assert not (flash and version.parse(torch.__version__) < version.parse('2.0.0')), 'in order to use flash attention, you must be using pytorch 2.0 or above'
+        assert not (flash and version.parse(torch.__version__) < version.parse(
+            '2.0.0')), 'in order to use flash attention, you must be using pytorch 2.0 or above'
 
         # determine efficient attention configs for cuda and cpu
 
@@ -72,7 +80,7 @@ class Attend(nn.Module):
             print_once('Non-A100 GPU detected, using math or mem efficient attention if input tensor is on cuda')
             self.cuda_config = FlashAttentionConfig(False, True, True)
 
-    def flash_attn(self, q, k, v, mask = None):
+    def flash_attn(self, q, k, v, mask=None):
         _, heads, q_len, dim_head, k_len, is_cuda, device = *q.shape, k.shape[-2], q.is_cuda, q.device
 
         # if scale is given, divide by the default scale that sdpa uses
@@ -95,13 +103,13 @@ class Attend(nn.Module):
         with torch.backends.cuda.sdp_kernel(**config._asdict()):
             out = F.scaled_dot_product_attention(
                 q, k, v,
-                attn_mask = mask,
-                dropout_p = self.dropout if self.training else 0.
+                attn_mask=mask,
+                dropout_p=self.dropout if self.training else 0.
             )
 
         return out
 
-    def forward(self, q, k, v, mask = None):
+    def forward(self, q, k, v, mask=None):
         """
         einstein notation
         b - batch
@@ -118,7 +126,7 @@ class Attend(nn.Module):
             mask = rearrange(mask, 'b j -> b 1 1 j')
 
         if self.flash:
-            return self.flash_attn(q, k, v, mask = mask)
+            return self.flash_attn(q, k, v, mask=mask)
 
         # similarity
 

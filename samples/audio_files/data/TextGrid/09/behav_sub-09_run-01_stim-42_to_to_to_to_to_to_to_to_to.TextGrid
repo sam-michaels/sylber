@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2539056922178231 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2539056922178231 
+            xmax = 0.5489988316998766 
+            text = "to" 
+        intervals [3]:
+            xmin = 0.5489988316998766 
+            xmax = 0.8778169014084507 
+            text = "to" 
+        intervals [4]:
+            xmin = 0.8778169014084507 
+            xmax = 1.1855568897254494 
+            text = "to" 
+        intervals [5]:
+            xmin = 1.1855568897254494 
+            xmax = 1.459571947815928 
+            text = "to" 
+        intervals [6]:
+            xmin = 1.459571947815928 
+            xmax = 1.7883900175245018 
+            text = "to" 
+        intervals [7]:
+            xmin = 1.7883900175245018 
+            xmax = 2.1720110988511716 
+            text = "to" 
+        intervals [8]:
+            xmin = 2.1720110988511716 
+            xmax = 2.4755354708898554 
+            text = "to" 
+        intervals [9]:
+            xmin = 2.4755354708898554 
+            xmax = 2.7917066917634843 
+            text = "to" 
+        intervals [10]:
+            xmin = 2.7917066917634843 
+            xmax = 3.107877912637113 
+            text = "to" 
+        intervals [11]:
+            xmin = 3.107877912637113 
+            xmax = 3.4366959823456873 
+            text = "to" 
+        intervals [12]:
+            xmin = 3.4366959823456873 
+            xmax = 3.7612984357759465 
+            text = "to" 
+        intervals [13]:
+            xmin = 3.7612984357759465 
+            xmax = 4.094332121762835 
+            text = "to" 
+        intervals [14]:
+            xmin = 4.094332121762835 
+            xmax = 4.431581424028039 
+            text = "to" 
+        intervals [15]:
+            xmin = 4.431581424028039 
+            xmax = 4.5 
+            text = "" 

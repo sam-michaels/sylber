@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.36772733173232947 
+            text = "" 
+        intervals [2]:
+            xmin = 0.36772733173232947 
+            xmax = 0.6501736223794379 
+            text = "pe" 
+        intervals [3]:
+            xmin = 0.6501736223794379 
+            xmax = 0.9452667618614915 
+            text = "pe" 
+        intervals [4]:
+            xmin = 0.9452667618614915 
+            xmax = 1.2530067501784903 
+            text = "pe" 
+        intervals [5]:
+            xmin = 1.2530067501784903 
+            xmax = 1.5691779710521192 
+            text = "pe" 
+        intervals [6]:
+            xmin = 1.5691779710521192 
+            xmax = 1.8642711105341727 
+            text = "pe" 
+        intervals [7]:
+            xmin = 1.8642711105341727 
+            xmax = 2.1593642500162264 
+            text = "pe" 
+        intervals [8]:
+            xmin = 2.1593642500162264 
+            xmax = 2.4586730057765953 
+            text = "pe" 
+        intervals [9]:
+            xmin = 2.4586730057765953 
+            xmax = 2.762197377815279 
+            text = "pe" 
+        intervals [10]:
+            xmin = 2.762197377815279 
+            xmax = 3.0277812033491274 
+            text = "pe" 
+        intervals [11]:
+            xmin = 3.0277812033491274 
+            xmax = 3.3439524242227563 
+            text = "pe" 
+        intervals [12]:
+            xmin = 3.3439524242227563 
+            xmax = 3.6263987148698646 
+            text = "pe" 
+        intervals [13]:
+            xmin = 3.6263987148698646 
+            xmax = 3.6980641916012207 
+            text = "" 
+        intervals [14]:
+            xmin = 3.6980641916012207 
+            xmax = 3.913060621795288 
+            text = "pe" 
+        intervals [15]:
+            xmin = 3.913060621795288 
+            xmax = 3.988941714804959 
+            text = "" 
+        intervals [16]:
+            xmin = 3.988941714804959 
+            xmax = 4.237663075225547 
+            text = "pe" 
+        intervals [17]:
+            xmin = 4.237663075225547 
+            xmax = 4.5 
+            text = "" 

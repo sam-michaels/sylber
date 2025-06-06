@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6333111572661777 
+            text = "" 
+        intervals [2]:
+            xmin = 0.6333111572661777 
+            xmax = 0.9157574479132862 
+            text = "ri" 
+        intervals [3]:
+            xmin = 0.9157574479132862 
+            xmax = 1.1686944246121893 
+            text = "ri" 
+        intervals [4]:
+            xmin = 1.1686944246121893 
+            xmax = 1.4384938664243525 
+            text = "ri" 
+        intervals [5]:
+            xmin = 1.4384938664243525 
+            xmax = 1.725155773349776 
+            text = "ri" 
+        intervals [6]:
+            xmin = 1.725155773349776 
+            xmax = 2.0244645291101446 
+            text = "ri" 
+        intervals [7]:
+            xmin = 2.0244645291101446 
+            xmax = 2.3111264360355683 
+            text = "ri" 
+        intervals [8]:
+            xmin = 2.3111264360355683 
+            xmax = 2.6062195755176223 
+            text = "ri" 
+        intervals [9]:
+            xmin = 2.6062195755176223 
+            xmax = 2.913959563834621 
+            text = "ri" 
+        intervals [10]:
+            xmin = 2.913959563834621 
+            xmax = 3.2259151684299345 
+            text = "ri" 
+        intervals [11]:
+            xmin = 3.2259151684299345 
+            xmax = 3.5336551567469336 
+            text = "ri" 
+        intervals [12]:
+            xmin = 3.5336551567469336 
+            xmax = 3.8245326799506723 
+            text = "ri" 
+        intervals [13]:
+            xmin = 3.8245326799506723 
+            xmax = 4.106978970597781 
+            text = "ri" 
+        intervals [14]:
+            xmin = 4.106978970597781 
+            xmax = 4.3683471798533136 
+            text = "ri" 
+        intervals [15]:
+            xmin = 4.3683471798533136 
+            xmax = 4.5 
+            text = "" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3550804828973843 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3550804828973843 
+            xmax = 0.6796829363276432 
+            text = "ne" 
+        intervals [3]:
+            xmin = 0.6796829363276432 
+            xmax = 0.9621292269747517 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.9621292269747517 
+            xmax = 1.2614379827351203 
+            text = "ne" 
+        intervals [5]:
+            xmin = 1.2614379827351203 
+            xmax = 1.5691779710521192 
+            text = "ne" 
+        intervals [6]:
+            xmin = 1.5691779710521192 
+            xmax = 1.889564808204063 
+            text = "ne" 
+        intervals [7]:
+            xmin = 1.889564808204063 
+            xmax = 2.1720110988511716 
+            text = "ne" 
+        intervals [8]:
+            xmin = 2.1720110988511716 
+            xmax = 2.4839667034464856 
+            text = "ne" 
+        intervals [9]:
+            xmin = 2.4839667034464856 
+            xmax = 2.7959223080417996 
+            text = "ne" 
+        intervals [10]:
+            xmin = 2.7959223080417996 
+            xmax = 3.1205247614720584 
+            text = "ne" 
+        intervals [11]:
+            xmin = 3.1205247614720584 
+            xmax = 3.415617900954112 
+            text = "ne" 
+        intervals [12]:
+            xmin = 3.415617900954112 
+            xmax = 3.736004738106056 
+            text = "ne" 
+        intervals [13]:
+            xmin = 3.736004738106056 
+            xmax = 4.06482280781463 
+            text = "ne" 
+        intervals [14]:
+            xmin = 4.06482280781463 
+            xmax = 4.2966817031219575 
+            text = "ne" 
+        intervals [15]:
+            xmin = 4.2966817031219575 
+            xmax = 4.5 
+            text = "" 

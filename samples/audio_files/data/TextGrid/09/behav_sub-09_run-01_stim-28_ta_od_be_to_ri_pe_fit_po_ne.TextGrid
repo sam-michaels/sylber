@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4731177386902058 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4731177386902058 
+            xmax = 0.7977201921204647 
+            text = "ta" 
+        intervals [3]:
+            xmin = 0.7977201921204647 
+            xmax = 1.075950866489258 
+            text = "od" 
+        intervals [4]:
+            xmin = 1.075950866489258 
+            xmax = 1.1644788083338742 
+            text = "" 
+        intervals [5]:
+            xmin = 1.1644788083338742 
+            xmax = 1.4427094827026676 
+            text = "be" 
+        intervals [6]:
+            xmin = 1.4427094827026676 
+            xmax = 1.4975124943207632 
+            text = "" 
+        intervals [7]:
+            xmin = 1.4975124943207632 
+            xmax = 1.9780927500486791 
+            text = "to" 
+        intervals [8]:
+            xmin = 1.9780927500486791 
+            xmax = 2.2605390406957877 
+            text = "" 
+        intervals [9]:
+            xmin = 2.2605390406957877 
+            xmax = 2.602003959239307 
+            text = "ri" 
+        intervals [10]:
+            xmin = 2.602003959239307 
+            xmax = 2.673669435970663 
+            text = "" 
+        intervals [11]:
+            xmin = 2.673669435970663 
+            xmax = 2.9687625754527165 
+            text = "pe" 
+        intervals [12]:
+            xmin = 2.9687625754527165 
+            xmax = 3.306011877717921 
+            text = "fit" 
+        intervals [13]:
+            xmin = 3.306011877717921 
+            xmax = 3.546302005581879 
+            text = "" 
+        intervals [14]:
+            xmin = 3.546302005581879 
+            xmax = 3.8666888427338226 
+            text = "po" 
+        intervals [15]:
+            xmin = 3.8666888427338226 
+            xmax = 4.178644447329137 
+            text = "ne" 
+        intervals [16]:
+            xmin = 4.178644447329137 
+            xmax = 4.5 
+            text = "" 

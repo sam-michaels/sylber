@@ -140,7 +140,7 @@ def main(args):
     out_root = pathlib.Path(args.out_dir).expanduser()
     device = "mps" if torch.backends.mps.is_available() else "cpu"
 
-    segger = Segmenter(model_ckpt=args.model_ckpt, device=device)  # <-- key change
+    segger = Segmenter(model_ckpt=args.model_ckpt, device=device) 
     for wav in wav_paths:
         # --- load & mono ---
         audio, sr = sf.read(wav, dtype="float32")

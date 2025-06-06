@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.45625527357694556 
+            text = "" 
+        intervals [2]:
+            xmin = 0.45625527357694556 
+            xmax = 0.7260547153891088 
+            text = "od" 
+        intervals [3]:
+            xmin = 0.7260547153891088 
+            xmax = 1.0169322385928474 
+            text = "od" 
+        intervals [4]:
+            xmin = 1.0169322385928474 
+            xmax = 1.2530067501784903 
+            text = "od" 
+        intervals [5]:
+            xmin = 1.2530067501784903 
+            xmax = 1.5228061919906535 
+            text = "od" 
+        intervals [6]:
+            xmin = 1.5228061919906535 
+            xmax = 1.8221149477510223 
+            text = "od" 
+        intervals [7]:
+            xmin = 1.8221149477510223 
+            xmax = 2.1003456221198156 
+            text = "od" 
+        intervals [8]:
+            xmin = 2.1003456221198156 
+            xmax = 2.4038699941585 
+            text = "od" 
+        intervals [9]:
+            xmin = 2.4038699941585 
+            xmax = 2.690531901083923 
+            text = "od" 
+        intervals [10]:
+            xmin = 2.690531901083923 
+            xmax = 2.9982718894009217 
+            text = "od" 
+        intervals [11]:
+            xmin = 2.9982718894009217 
+            xmax = 3.2722869474914003 
+            text = "od" 
+        intervals [12]:
+            xmin = 3.2722869474914003 
+            xmax = 3.592673784643344 
+            text = "od" 
+        intervals [13]:
+            xmin = 3.592673784643344 
+            xmax = 3.8371795287856174 
+            text = "od" 
+        intervals [14]:
+            xmin = 3.8371795287856174 
+            xmax = 4.165997598494191 
+            text = "od" 
+        intervals [15]:
+            xmin = 4.165997598494191 
+            xmax = 4.414718958914778 
+            text = "od" 
+        intervals [16]:
+            xmin = 4.414718958914778 
+            xmax = 4.5 
+            text = "" 

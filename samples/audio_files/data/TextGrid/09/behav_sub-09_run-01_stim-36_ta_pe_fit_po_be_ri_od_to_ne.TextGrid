@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30870870383591875 
+            text = "" 
+        intervals [2]:
+            xmin = 0.30870870383591875 
+            xmax = 0.6375267735444927 
+            text = "ta" 
+        intervals [3]:
+            xmin = 0.6375267735444927 
+            xmax = 0.9452667618614915 
+            text = "pe" 
+        intervals [4]:
+            xmin = 0.9452667618614915 
+            xmax = 1.0464415525410526 
+            text = "" 
+        intervals [5]:
+            xmin = 1.0464415525410526 
+            xmax = 1.3288878431881612 
+            text = "fit" 
+        intervals [6]:
+            xmin = 1.3288878431881612 
+            xmax = 1.4089845524761473 
+            text = "" 
+        intervals [7]:
+            xmin = 1.4089845524761473 
+            xmax = 1.708293308236516 
+            text = "po" 
+        intervals [8]:
+            xmin = 1.708293308236516 
+            xmax = 1.792605633802817 
+            text = "" 
+        intervals [9]:
+            xmin = 1.792605633802817 
+            xmax = 2.108776854676446 
+            text = "bri (mispoke)" 
+        intervals [10]:
+            xmin = 2.108776854676446 
+            xmax = 2.256323424417473 
+            text = "" 
+        intervals [11]:
+            xmin = 2.256323424417473 
+            xmax = 2.5556321801778417 
+            text = "be" 
+        intervals [12]:
+            xmin = 2.5556321801778417 
+            xmax = 2.6441601220224578 
+            text = "" 
+        intervals [13]:
+            xmin = 2.6441601220224578 
+            xmax = 3.023565587070812 
+            text = "bri (misspoke)" 
+        intervals [14]:
+            xmin = 3.023565587070812 
+            xmax = 3.26385571493477 
+            text = "" 
+        intervals [15]:
+            xmin = 3.26385571493477 
+            xmax = 3.5842425520867143 
+            text = "od" 
+        intervals [16]:
+            xmin = 3.5842425520867143 
+            xmax = 3.752867203219316 
+            text = "" 
+        intervals [17]:
+            xmin = 3.752867203219316 
+            xmax = 4.11541020315441 
+            text = "to" 
+        intervals [18]:
+            xmin = 4.11541020315441 
+            xmax = 4.402072110079834 
+            text = "ne" 
+        intervals [19]:
+            xmin = 4.402072110079834 
+            xmax = 4.5 
+            text = "" 

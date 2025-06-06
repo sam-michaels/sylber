@@ -1,0 +1,122 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 27 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2539056922178231 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2539056922178231 
+            xmax = 0.5068426689167262 
+            text = "po" 
+        intervals [3]:
+            xmin = 0.5068426689167262 
+            xmax = 0.5742925293697669 
+            text = "" 
+        intervals [4]:
+            xmin = 0.5742925293697669 
+            xmax = 0.8314451223469851 
+            text = "po" 
+        intervals [5]:
+            xmin = 0.8314451223469851 
+            xmax = 0.9452667618614915 
+            text = "" 
+        intervals [6]:
+            xmin = 0.9452667618614915 
+            xmax = 1.1391851106639839 
+            text = "po" 
+        intervals [7]:
+            xmin = 1.1391851106639839 
+            xmax = 1.2108505873953397 
+            text = "" 
+        intervals [8]:
+            xmin = 1.2108505873953397 
+            xmax = 1.480650029207503 
+            text = "po" 
+        intervals [9]:
+            xmin = 1.480650029207503 
+            xmax = 1.5438842733822289 
+            text = "" 
+        intervals [10]:
+            xmin = 1.5438842733822289 
+            xmax = 1.7673119361329266 
+            text = "po" 
+        intervals [11]:
+            xmin = 1.7673119361329266 
+            xmax = 1.8389774128642824 
+            text = "" 
+        intervals [12]:
+            xmin = 1.8389774128642824 
+            xmax = 2.0919143895631858 
+            text = "po" 
+        intervals [13]:
+            xmin = 2.0919143895631858 
+            xmax = 2.1677954825728567 
+            text = "" 
+        intervals [14]:
+            xmin = 2.1677954825728567 
+            xmax = 2.4080856104368147 
+            text = "po" 
+        intervals [15]:
+            xmin = 2.4080856104368147 
+            xmax = 2.492397936003116 
+            text = "" 
+        intervals [16]:
+            xmin = 2.492397936003116 
+            xmax = 2.7706286103719093 
+            text = "po" 
+        intervals [17]:
+            xmin = 2.7706286103719093 
+            xmax = 2.82121600571169 
+            text = "" 
+        intervals [18]:
+            xmin = 2.82121600571169 
+            xmax = 3.065721749853963 
+            text = "po" 
+        intervals [19]:
+            xmin = 3.065721749853963 
+            xmax = 3.1205247614720584 
+            text = "" 
+        intervals [20]:
+            xmin = 3.1205247614720584 
+            xmax = 3.3650305056143313 
+            text = "po" 
+        intervals [21]:
+            xmin = 3.3650305056143313 
+            xmax = 3.4451272149023175 
+            text = "" 
+        intervals [22]:
+            xmin = 3.4451272149023175 
+            xmax = 3.65590802881807 
+            text = "po" 
+        intervals [23]:
+            xmin = 3.65590802881807 
+            xmax = 3.727573505549426 
+            text = "" 
+        intervals [24]:
+            xmin = 3.727573505549426 
+            xmax = 3.984726098526644 
+            text = "po" 
+        intervals [25]:
+            xmin = 3.984726098526644 
+            xmax = 4.0395291101447395 
+            text = "" 
+        intervals [26]:
+            xmin = 4.0395291101447395 
+            xmax = 4.275603621730383 
+            text = "po" 
+        intervals [27]:
+            xmin = 4.275603621730383 
+            xmax = 4.5 
+            text = "" 

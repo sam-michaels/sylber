@@ -44,3 +44,6 @@ typing_extensions==4.12.2
 urllib3==2.2.3
 vector-quantize-pytorch==1.18.5
 yarl==1.15.0
+kneed==0.8.5
+ruptures==1.0.6
+bayesian_changepoint_detection==0.2.dev1

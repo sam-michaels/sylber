@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2707681573310833 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2707681573310833 
+            xmax = 0.6333111572661777 
+            text = "ta" 
+        intervals [3]:
+            xmin = 0.6333111572661777 
+            xmax = 0.9958541572012721 
+            text = "ta" 
+        intervals [4]:
+            xmin = 0.9958541572012721 
+            xmax = 1.3415346920231064 
+            text = "ta" 
+        intervals [5]:
+            xmin = 1.3415346920231064 
+            xmax = 1.7040776919582008 
+            text = "ta" 
+        intervals [6]:
+            xmin = 1.7040776919582008 
+            xmax = 2.0666206918932954 
+            text = "ta" 
+        intervals [7]:
+            xmin = 2.0666206918932954 
+            xmax = 2.4418105406633352 
+            text = "ta" 
+        intervals [8]:
+            xmin = 2.4418105406633352 
+            xmax = 2.842294087103265 
+            text = "ta" 
+        intervals [9]:
+            xmin = 2.842294087103265 
+            xmax = 3.2132683195949894 
+            text = "ta" 
+        intervals [10]:
+            xmin = 3.2132683195949894 
+            xmax = 3.575811319530084 
+            text = "ta" 
+        intervals [11]:
+            xmin = 3.575811319530084 
+            xmax = 3.9552167845784387 
+            text = "ta" 
+        intervals [12]:
+            xmin = 3.9552167845784387 
+            xmax = 4.254525540338808 
+            text = "ta" 
+        intervals [13]:
+            xmin = 4.254525540338808 
+            xmax = 4.321975400791848 
+            text = "" 
+        intervals [14]:
+            xmin = 4.321975400791848 
+            xmax = 4.5 
+            text = "ta" 

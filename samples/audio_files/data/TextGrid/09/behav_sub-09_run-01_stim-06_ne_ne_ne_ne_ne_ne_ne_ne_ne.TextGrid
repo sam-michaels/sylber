@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33511636748479856 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33511636748479856 
+            xmax = 0.6707931795591765 
+            text = "ne" 
+        intervals [3]:
+            xmin = 0.6707931795591765 
+            xmax = 1.00341838425106 
+            text = "ne" 
+        intervals [4]:
+            xmin = 1.00341838425106 
+            xmax = 1.3329919815604492 
+            text = "ne" 
+        intervals [5]:
+            xmin = 1.3329919815604492 
+            xmax = 1.683926830547299 
+            text = "ne" 
+        intervals [6]:
+            xmin = 1.683926830547299 
+            xmax = 2.040964894299137 
+            text = "ne" 
+        intervals [7]:
+            xmin = 2.040964894299137 
+            xmax = 2.367486884226032 
+            text = "ne" 
+        intervals [8]:
+            xmin = 2.367486884226032 
+            xmax = 2.7001120889179155 
+            text = "ne" 
+        intervals [9]:
+            xmin = 2.7001120889179155 
+            xmax = 3.0266340788448107 
+            text = "ne" 
+        intervals [10]:
+            xmin = 3.0266340788448107 
+            xmax = 3.3348464244767397 
+            text = "ne" 
+        intervals [11]:
+            xmin = 3.3348464244767397 
+            xmax = 3.697987702993567 
+            text = "ne" 
+        intervals [12]:
+            xmin = 3.697987702993567 
+            xmax = 4.003148441243002 
+            text = "ne" 
+        intervals [13]:
+            xmin = 4.003148441243002 
+            xmax = 4.329670431169896 
+            text = "ne" 
+        intervals [14]:
+            xmin = 4.329670431169896 
+            xmax = 4.5 
+            text = "n" 

@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.40988349451548 
+            text = "" 
+        intervals [2]:
+            xmin = 0.40988349451548 
+            xmax = 0.6206643084312325 
+            text = "be" 
+        intervals [3]:
+            xmin = 0.6206643084312325 
+            xmax = 1.0843820990458881 
+            text = "fit" 
+        intervals [4]:
+            xmin = 1.0843820990458881 
+            xmax = 1.4469250989809828 
+            text = "" 
+        intervals [5]:
+            xmin = 1.4469250989809828 
+            xmax = 1.792605633802817 
+            text = "po" 
+        intervals [6]:
+            xmin = 1.792605633802817 
+            xmax = 2.3026952034789385 
+            text = "" 
+        intervals [7]:
+            xmin = 2.3026952034789385 
+            xmax = 2.7917066917634843 
+            text = "to" 
+        intervals [8]:
+            xmin = 2.7917066917634843 
+            xmax = 2.9645469591744016 
+            text = "" 
+        intervals [9]:
+            xmin = 2.9645469591744016 
+            xmax = 3.352383656779386 
+            text = "ne" 
+        intervals [10]:
+            xmin = 3.352383656779386 
+            xmax = 3.6980641916012207 
+            text = "ri" 
+        intervals [11]:
+            xmin = 3.6980641916012207 
+            xmax = 3.7612984357759465 
+            text = "" 
+        intervals [12]:
+            xmin = 3.7612984357759465 
+            xmax = 4.0395291101447395 
+            text = "od" 
+        intervals [13]:
+            xmin = 4.0395291101447395 
+            xmax = 4.157566365937561 
+            text = "" 
+        intervals [14]:
+            xmin = 4.157566365937561 
+            xmax = 4.5 
+            text = "ta" 

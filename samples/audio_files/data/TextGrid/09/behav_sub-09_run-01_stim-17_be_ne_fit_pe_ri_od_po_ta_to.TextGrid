@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 4.5 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.34243363406243915 
+            text = "" 
+        intervals [2]:
+            xmin = 0.34243363406243915 
+            xmax = 0.4436084247420004 
+            text = "be" 
+        intervals [3]:
+            xmin = 0.4436084247420004 
+            xmax = 0.5785081456480821 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.5785081456480821 
+            xmax = 0.8778169014084507 
+            text = "fit" 
+        intervals [5]:
+            xmin = 0.8778169014084507 
+            xmax = 0.9663448432530668 
+            text = "" 
+        intervals [6]:
+            xmin = 0.9663448432530668 
+            xmax = 1.151831959498929 
+            text = "pe" 
+        intervals [7]:
+            xmin = 1.151831959498929 
+            xmax = 1.3499659245797364 
+            text = "ri" 
+        intervals [8]:
+            xmin = 1.3499659245797364 
+            xmax = 1.5691779710521192 
+            text = "od" 
+        intervals [9]:
+            xmin = 1.5691779710521192 
+            xmax = 1.6661371454533653 
+            text = "" 
+        intervals [10]:
+            xmin = 1.6661371454533653 
+            xmax = 1.796821250081132 
+            text = "po" 
+        intervals [11]:
+            xmin = 1.796821250081132 
+            xmax = 2.02868014538846 
+            text = "ta" 
+        intervals [12]:
+            xmin = 2.02868014538846 
+            xmax = 2.2478921918608425 
+            text = "to" 
+        intervals [13]:
+            xmin = 2.2478921918608425 
+            xmax = 4.5 
+            text = "" 

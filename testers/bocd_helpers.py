@@ -1,4 +1,4 @@
-# experiments/bocd_helpers.py
+# testers/bocd_helpers.py
 import numpy as np
 from scipy.stats import t
 
